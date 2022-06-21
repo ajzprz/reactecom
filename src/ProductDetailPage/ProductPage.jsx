@@ -27,7 +27,7 @@ const ProductPage = () => {
 
   useEffect(() => {
     fetchSingleData();
-  }, []);
+  },[]);
 
   return (
     <div>
