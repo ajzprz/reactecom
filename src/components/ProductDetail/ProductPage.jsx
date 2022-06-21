@@ -19,8 +19,9 @@ const ProductPage = () => {
       console.log(singleData);
       setIsPending(false);
       setSingleProduct(singleData);
-    } catch (err) {
-      console.error(err);
+    } 
+    catch (err) {
+      setError(err.message);
     }
   }
 

@@ -28,7 +28,7 @@ const ProductDetails = (props) => {
 			<span>Category: {props.product.category} </span>
 		</div>
 		<div className="price">
-			R$ <span> {props.product.price}</span>
+			 <span>R$ {props.product.price}</span>
 		</div>
 		<div className="variant">
 			<h3>SELECT A COLOR</h3>
